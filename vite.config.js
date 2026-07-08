@@ -4,5 +4,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/Fitness-Tracker/',
+  base: './',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets'
+  }
 })
