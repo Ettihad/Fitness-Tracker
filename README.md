@@ -1,16 +1,13 @@
-# React + Vite
+# fitness-tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A super clean and simple workout tracker app that saves everything right to your browser's local memory, so your progress stays even if you refresh or close the page. Built-in BMR calculator inside it so you can check your daily resting calories.
 
-Currently, two official plugins are available:
+Built using React, Vite, and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Cool Features
+* **Never Loses Data**: Saves your logs straight to the browser local storage.
+* **Biometric Calc**: Has a built-in Mifflin-St Jeor formula engine to calculate your BMR using lbs, cm, and age.
+* **Easy Inputs**: Quickly log your exercise name, weight, sets, and reps.
+* **Delete Logs**: Simple delete button to wipe out old rows or mistakes instantly.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Use the link and start:
